@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="container">
+    <div class="form-conatiner">
+        <div>
+            <div class="form-description">
+
+                <h2>Feedback Form</h2>
+                <p class="text">A short feedback form to help us consistently deliver you the best and improve.
+                    Compulsory to get certificates. Certificates will be sent via email in December.
+                    Request you to please fill correct details only so that we can know where we are lagging.</p>
+                </div>
+
+        </div>
+
+        <form>
+            <div class="box">
+                <label for="name"><span>1.</span>Name of Participate</label>
+                <input type="text" name="name"/>
+            </div>
+            <div style="margin-top:18px ; margin-left: 16px;">
+            <label> <span>2.</span> Participate For</label>
+            <div style="margin-top: 12px;">
+                <input type="checkbox" id="sieo" name="sieo">
+                <label for="sieo">SIEO</label><br>
+                <input type="checkbox" id="simo" name="simo" >
+                <label for="simo">SIMO</label><br>
+                <input type="checkbox" id="siso" name="siso" >
+                <label for="siso">SISO</label><br/>
+               
+                <input type="checkbox" id="grads" name="grads" >
+                <label for="grads">Grads Olympiad</label><br>
+                <input type="checkbox" id="Olympiad" name="Olympiad" >
+                <label for="Olympiad">Finance Olympiad</label><br>
+            </div>
+        </div>
+            <div style="margin-top:18px ; margin-left: 16px;">
+                <p> <span>3.</span> How was the quality of the questions asked?</p>
+                <div class="star_rating">
+                <button class="star" type="button">☆</button>
+                <button class="star" type="button">☆</button>
+                <button class="star" type="button">☆</button>
+                <button class="star" type="button">☆</button>
+                <button class="star" type="button">☆</button>
+                <p class="current_rating"></p>
+            </div>
+            </div>
+            <div style="margin-top:18px ; margin-left: 16px;">
+                <p><span>4.</span> was the quality of the questions asked?</p>
+                <div class="star_rating">
+                <button class="star_1" type="button">☆</button>
+                <button class="star_1" type="button">☆</button>
+                <button class="star_1" type="button">☆</button>
+                <button class="star_1" type="button">☆</button>
+                <button class="star_1" type="button">☆</button>
+                <p class="current_rating_1"></p>
+            </div>
+            </div>
+            <div style="margin-top:18px ; margin-left: 16px;">
+                <p><span>5.</span> was the ease of giving the Olympiad?</p>
+                <div class="star_rating">
+                <button class="star_2" type="button">☆</button>
+                <button class="star_2" type="button">☆</button>
+                <button class="star_2" type="button">☆</button>
+                <button class="star_2" type="button">☆</button>
+                <button class="star_2" type="button">☆</button>
+                <p class="current_rating_2"></p>
+            </div>
+            </div>
+            <div style="margin-top:18px ; margin-left: 16px;">
+                <p> <span>6.</span>Did you like the process of report generation?</p>
+                <div class="star_rating">
+                <button class="star_3" type="button">☆</button>
+                <button class="star_3" type="button">☆</button>
+                <button class="star_3" type="button">☆</button>
+                <button class="star_3" type="button">☆</button>
+                <button class="star_3" type="button">☆</button>
+                <p class="current_rating_3"></p>
+            </div>
+            </div>
+            <div style="margin-top:18px ; margin-left: 16px;">
+                <p><span>7.</span>How was the customer service, if you used any?</p>
+                <div class="star_rating">
+                <button class="star_4" type="button">☆</button>
+                <button class="star_4" type="button">☆</button>
+                <button class="star_4" type="button">☆</button>
+                <button class="star_4" type="button">☆</button>
+                <button class="star_4" type="button">☆</button>
+                <p class="current_rating_4"></p>
+            </div>
+            </div>
+            <div class="box">
+                <label for="suggestion"><span>8.</span>Anything that we need to improve.</label>
+                <input type="text"name="suggestion"/>
+            </div>
+            <div  class="box">
+                <label for="suggestion-2"><span>9.</span>What did you like the best about us?.</label>
+                <input type="text"name="suggestion-2"/>
+            </div>
+
+            <div style="margin-top:18px ; margin-left: 16px;">
+                <p><span>10.</span>How likely are you to participate in our Olympiads in the future?</p>
+                <div class="star_rating">
+                <button class="star_5" type="button">☆</button>
+                <button class="star_5" type="button">☆</button>
+                <button class="star_5" type="button">☆</button>
+                <button class="star_5" type="button">☆</button>
+                <button class="star_5" type="button">☆</button>
+                <p class="current_rating_5"></p>
+            </div>
+            </div>
+            <div >
+                <button class="btn" type="submit">
+                    <div style="font-size:18px ; color: white;">Submit</div>
+                </button>
+            </div>
+            
+        </form>
+        <div  class="text-2">
+            <p class="footer-content">This content is created by the owner of the form.
+                 The data you submit will be sent to the form owner.
+                  Microsoft is not responsible for the privacy or security practices of its customers,
+                   including those of this form owner. Never give out your password.</p>
+        </div>
+    </div>
+     
+       
+
+   </div>
+   <script>
+          const star0 = document.querySelectorAll(".star");
+        let current_star0 = document.querySelector('.current_rating');
+
+        star0.forEach((star, i) => {
+            star.onclick = function() {
+                let  current_star_level_value = i + 1;
+                current_star_level_value.innerText = `${ current_star_level_value} of 5`;
+                star0.forEach((star, j) => {
+                    if(  current_star_level_value >= j+1 )
+                    {
+                        star.innerHTML = '&#9733';
+                    }else{
+                        star.innerHTML = '&#9734';
+                    }
+                })
+            }
+        });
+
+        const allstar = document.querySelectorAll(".star_1");
+        let current_star_level = document.querySelector('.current_rating_1');
+
+        allstar.forEach((star, i) => {
+            star.onclick = function() {
+                let current_star_level_value = i + 1;
+                // current_star_level.innerText = `${current_star_level_value} of 5`;
+                allstar.forEach((star, j) => {
+                    if( current_star_level_value >= j+1 )
+                    {
+                        star.innerHTML = '&#9733';
+                    }else{
+                        star.innerHTML = '&#9734';
+                    }
+                })
+            }
+        })
+
+        const star_2 = document.querySelectorAll(".star_2");
+        let current_star_level_2 = document.querySelector('.current_rating_2');
+
+        star_2.forEach((starr, i) => {
+            starr.onclick = function() {
+                let current_star_level_value = i + 1;
+                // current_star_level.innerText = `${current_star_level_value} of 5`;
+                star_2.forEach((starr, j) => {
+                    if( current_star_level_value >= j+1 )
+                    {
+                        starr.innerHTML = '&#9733';
+                    }else{
+                        starr.innerHTML = '&#9734';
+                    }
+                })
+            }
+        })
+
+
+        const allstar3 = document.querySelectorAll(".star_3");
+        let current_star_level3 = document.querySelector('.current_rating_3');
+
+        allstar3.forEach((star, i) => {
+            star.onclick = function() {
+                let current_star_level_value = i + 1;
+                // current_star_level.innerText = `${current_star_level_value} of 5`;
+                allstar3.forEach((star, j) => {
+                    if( current_star_level_value >= j+1 )
+                    {
+                        star.innerHTML = '&#9733';
+                    }else{
+                        star.innerHTML = '&#9734';
+                    }
+                })
+            }
+        })
+
+        const allstar4 = document.querySelectorAll(".star_4");
+        let current_star_level4 = document.querySelector('.current_rating_4');
+
+        allstar4.forEach((star, i) => {
+            star.onclick = function() {
+                let current_star_level_value = i + 1;
+                // current_star_level.innerText = `${current_star_level_value} of 5`;
+                allstar4.forEach((star, j) => {
+                    if( current_star_level_value >= j+1 )
+                    {
+                        star.innerHTML = '&#9733';
+                    }else{
+                        star.innerHTML = '&#9734';
+                    }
+                })
+            }
+        })
+
+        const allstar5 = document.querySelectorAll(".star_5");
+        let current_star_level5 = document.querySelector('.current_rating_5');
+
+        allstar5.forEach((star, i) => {
+            star.onclick = function() {
+                let current_star_level_value = i + 1;
+                // current_star_level.innerText = `${current_star_level_value} of 5`;
+                allstar5.forEach((star, j) => {
+                    if( current_star_level_value >= j+1 )
+                    {
+                        star.innerHTML = '&#9733';
+                    }else{
+                        star.innerHTML = '&#9734';
+                    }
+                })
+            }
+        })
+
+        
+   </script>
+</body>
+</html>

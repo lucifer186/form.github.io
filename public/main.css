@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* width: 100%; */
+    /* background-image: url(img/meeting.png); */
+    background-image: url('https://cdn.forms.office.net/forms/images/theme/meeting.png');
+    background-attachment: fixed;
+    /* background-color: black; */
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.form-conatiner{
+    width: 50%;
+    margin: auto;
+    /* height: 140vh; */
+    background: #eaeaea;
+    border-radius: 17px;
+    /* margin-top: 15px; */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.form-description{
+    background-color: #284668;
+    /* margin-bottom: 32px; */
+    height: 27vh;
+    margin: auto;
+}
+h2{
+    position: relative;
+    top: 43px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+}
+.text{
+    margin-top: 70px;
+    margin-left: 20px;
+    color: white;
+}
+.text-2{
+    height: 12vh;
+    background-color: #c7bdbd;
+}
+.footer-content{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 21px;
+    top: 1vh;
+    position: relative;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.box > input{
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 70%;
+}
+
+label{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.star_rating{
+    user-select: none;
+    color: white;
+    /* background-color: white;
+    padding: 1.4rem 2.5rem;
+    margin: 2rem;
+    border-radius: .4rem;
+    text-align: center; */
+    animation: slide-up 1s ease;
+}
+
+@keyframes slide-up{
+    0%{
+        opacity: 0;
+        transform: scale(.5);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.btn{
+    margin-left: 35px;
+    font-size: 23px;
+    cursor: pointer;
+    padding: 8px 38px;
+    background-color: #284668;;
+    border: 1px solid white;
+    margin-bottom: 24px;
+}
+
+.rating_heading{
+    color: white;
+    animation: scale-up 1s ease;
+}
+
+@keyframes scale-up{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.star, .star_1, .star_2, .star_3, .star_4, .star_5{
+    font-size: 3rem;
+    color: #284668;
+    background-color: unset;
+    border: none;
+}
+
+.star:hover, .star_1:hover, .star_2:hover, .star_3:hover, .star_4:hover ,.star_5:hover{
+    cursor: pointer;
+} 
